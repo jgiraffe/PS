@@ -3,8 +3,7 @@
 using namespace std;
 
 int solution(string s) {
-    int answer = 1001, len = s.length();
-    if(len == 1) return 1;
+    int len = s.length(), answer = len;
     for(int size = 1; size <= len / 2; size++) {
         int compression_len = len;
         int cnt = 0;
