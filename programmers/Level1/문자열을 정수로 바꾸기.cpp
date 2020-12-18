@@ -1,3 +1,8 @@
+/*
+#include <string>
+int solution(std::string s){return stoi(s);}
+*/
+
 #include <string>
 using namespace std;
 
